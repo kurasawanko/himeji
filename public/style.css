@@ -19,7 +19,7 @@ body {
 	border:1px solid #1090c3;
 	background-color: #1ab0ec;
 	background-image: -webkit-linear-gradient(top, #1ab0ec, #1a92c2);
-	/*background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2);/
+	background-image: linear-gradient(to bottom, #1ab0ec, #1a92c2);
 }
 
 .twitter_button:active {
@@ -33,7 +33,7 @@ body {
 	width: 200px;
 	height: 54px;
 	text-align: center;
-	text-decoration: none;
+	/*text-decoration: none;*/
 	line-height: 54px;
 	outline: none;
 }
@@ -53,3 +53,4 @@ body {
 	-webkit-transition: all .3s;
 	transition: all .3s;
 }
+
