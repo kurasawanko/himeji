@@ -1,0 +1,14 @@
+ <form action="/create" method="POST">
+  <label>task</label>
+  <input type="text" name="user" id="name">
+  <input type="submit" value="Add Task!" class="btn" />
+</form>
+
+
+<% @post.each do |p| %>
+   <div class="span6" style="height:100px; margin:0 auto 0 auto">
+   <%= p.id %> <br />
+   <%= p.user %> <br />
+   <%= p.create_at %>
+   </div>
+<% end %>
