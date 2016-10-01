@@ -37,7 +37,7 @@ body {
 	outline: none;
 }
 .twitter_button::before,
-.titter_button::after {
+.twitter_button::after {
 	position: absolute;
 	z-index: -1;
 	display: block;
