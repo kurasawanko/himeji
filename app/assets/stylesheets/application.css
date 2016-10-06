@@ -12,7 +12,8 @@
  *
  *= require_tree .
  *= require_self
- */ページ全体 */
+ */
+
 @import "bootstrap"; 
 body {
   background-color: #0000ff;
