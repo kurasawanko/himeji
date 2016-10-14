@@ -6,10 +6,10 @@
   </head>
   <body>
   <div class="container">
-    <div class="jnmbtron"> 
- <h1>したつもり貯金</h1>
+   <div class="jumbosron">
+ <h1><font color="#FFFFFF">したつもり貯金</font></h1>
      <p> 金額：</p>
-      <!-- <form method="post" action="/addMoney" name="myForm"> -->
+      <!-- <form method="post" action="/result" name="myForm"> -->
        <%= form_tag('/result', name: "myForm", method: :post) do %>
        <select id="text" name="kane1">
        <option>1</option>
@@ -25,6 +25,6 @@
        <input type="submit" class="large-button" tabIndex="0" id="twitter_button" value = 飲んだつもりにする！！>
      <% end %>
     </div>
-   </div>
+  </div>
  </body>
 </html>
